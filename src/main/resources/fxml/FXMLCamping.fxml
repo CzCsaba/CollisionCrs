@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<TabPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.SFMCollisionCourse.FXMLCamping">
+    <tabs>
+        <Tab text="elso oldal">
+            <content>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="anchor ">
+                    <stylesheets>
+                        <URL value="@style.css" />
+                    </stylesheets>
+                    <children>
+                        <ComboBox fx:id="turautvonal" layoutX="98.0" layoutY="164.0" prefHeight="26.0" prefWidth="359.0" promptText="Válasszon az alábbiak közül!" style="-fx-background-color: white;" />
+                        <Text layoutX="64.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camping route planner" wrappingWidth="704.13671875">
+                            <font>
+                                <Font size="50.0" />
+                            </font>
+                        </Text>
+                        <Button layoutX="568.0" layoutY="660.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: white;" text="Összeg">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <ComboBox fx:id="campingek" layoutX="98.0" layoutY="370.0" prefHeight="26.0" prefWidth="359.0" promptText="Válasszon az alábbiak közül!" style="-fx-background-color: white;" />
+                        <ComboBox fx:id="csomagok" layoutX="98.0" layoutY="551.0" prefHeight="26.0" prefWidth="359.0" promptText="Válasszon az alábbiak közül!" style="-fx-background-color: white;" />
+                        <Text layoutX="101.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camping túrák nevei" wrappingWidth="337.99999999999983">
+                            <font>
+                                <Font size="35.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="98.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Túrák campingei" wrappingWidth="338.0">
+                            <font>
+                                <Font size="35.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="-9.0" layoutY="-13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="31.13671875" />
+                        <Text layoutX="101.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Csomagok" wrappingWidth="337.99999999999994">
+                            <font>
+                                <Font size="35.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="568.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Árak" wrappingWidth="100.0">
+                            <font>
+                                <Font size="30.0" />
+                            </font>
+                        </Text>
+                        <Label fx:id="TuraAr" layoutX="568.0" layoutY="161.0" prefHeight="21.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: rgb(0,0,0);" text="1">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="CampingAr" layoutX="568.0" layoutY="367.0" prefHeight="23.0" prefWidth="100.0" style="-fx-border-color: rgb(0,0,0); -fx-background-color: white;" text="2">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="PackageAr" layoutX="568.0" layoutY="548.0" prefHeight="21.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: rgb(0,0,0);" text="3">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="masodik oldal">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
+
