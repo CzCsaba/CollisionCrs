@@ -28,6 +28,7 @@ public class FXMLCamping {
     @FXML
     public Label CampingAr;
 
+    @FXML
     public Label PackageAr;
 
 }

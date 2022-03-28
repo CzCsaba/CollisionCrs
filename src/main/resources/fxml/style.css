@@ -4,3 +4,7 @@
     -fx-background-repeat: no-repeat;
     -fx-background-size: 1920 1080;
 }
+.tab-header-background {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, derive(-fx-color, -80%);
+    -fx-effect: innershadow(two-pass-box , rgba(0,0,0,0.6) , 4, 0.0 , 0 , 0);
+}
